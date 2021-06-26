@@ -1,0 +1,50 @@
+---
+# Array of devices organized by type.
+disks:
+  - device_type: hdd
+    serial_number: PMW4DBSB
+    device_group: plottingDriveGroup
+    zone: chassis
+  - device_type: hdd
+    serial_number: PMW4DBSB
+    device_group: plottingDriveGroup
+    zone: chassis
+  - device_type: hdd
+    serial_number: PMW4DBSB
+    device_group: plottingDriveGroup
+    zone: chassis
+  - device_type: hdd
+    serial_number: PMW4DBSB
+    device_group: plottingDriveGroup
+    zone: chassis
+  - device_type: hdd
+    serial_number: PMW4DBSB
+    device_group: plottingDriveGroup
+    zone: chassis
+  - device_type: hdd
+    serial_number: PMW4DBSB
+    device_group: plottingDriveGroup
+    zone: chassis
+  - device_type: hdd
+    serial_number: PMW4DBSB
+    device_group: plottingDriveGroup
+    zone: chassis
+  - device_type: hdd
+    serial_number: PMW4DBSB
+    device_group: plottingDriveGroup
+    zone: chassis
+
+cpus:
+  - device_type: cpu
+    socket: 0
+    device_group: cpus
+    zone: chassis
+  - device_type: cpu
+    socket: 1
+    device_group: cpus
+    zone: chassis
+
+gpus:
+
+other:
+  
