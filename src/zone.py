@@ -1,9 +1,9 @@
 
 class Zone:
-
-    self.name = ""
-    self.deviceGroups = []
     
-    def __init__(self, name, deviceGroups):
+    def __init__(self, name):
         self.name = name
-        self.deviceGroups = deviceGroups
+        self.zones = []
+
+    def addZone(self, newZone):
+        self.zones.append(newZone)

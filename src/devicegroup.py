@@ -1,12 +1,12 @@
 
 class DeviceGroup:
 
-    self.name = ""
-    self.devices = []
-
-    def __init__(self, name, devicesArr):
+    def __init__(self, name):
         self.name = name
-        self.devices = deviceArr
+        self.devices = []
+
+    def addDevice(self, newDevice):
+        self.devices.append(newDevice)
 
 # Just thinking through how I want the program to work.    
 

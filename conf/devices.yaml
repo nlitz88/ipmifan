@@ -1,5 +1,5 @@
 ---
-# Array of devices organized by type.
+# Array of devices grouped by type. These groupings here are purely for organization.
 disks:
   - device_type: "hdd"
     serial_number: "5000cca021405dd4"
