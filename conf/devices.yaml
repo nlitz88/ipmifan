@@ -2,49 +2,49 @@
 # Array of devices organized by type.
 disks:
   - device_type: "hdd"
-    serial_number: "PMW4DBSB"
+    serial_number: "5000cca021405dd4"
     device_group: "plottingDriveGroup"
     zone: "chassis"
   - device_type: "hdd"
-    serial_number: "PMW4DBSB"
+    serial_number: "5000cca0259b3b0c"
     device_group: "plottingDriveGroup"
     zone: "chassis"
   - device_type: "hdd"
-    serial_number: "PMW4DBSB"
+    serial_number: "5000cca0259b39c0"
     device_group: "plottingDriveGroup"
     zone: "chassis"
   - device_type: "hdd"
-    serial_number: "PMW4DBSB"
+    serial_number: "5000cca0259228ac"
     device_group: "plottingDriveGroup"
     zone: "chassis"
   - device_type: "hdd"
-    serial_number: "PMW4DBSB"
+    serial_number: "500003952811d414"
     device_group: "plottingDriveGroup"
     zone: "chassis"
   - device_type: "hdd"
-    serial_number: "PMW4DBSB"
+    serial_number: "50000394c8115c04"
     device_group: "plottingDriveGroup"
     zone: "chassis"
   - device_type: "hdd"
-    serial_number: "PMW4DBSB"
+    serial_number: "5000cca06e053d8c"
     device_group: "plottingDriveGroup"
     zone: "chassis"
   - device_type: "hdd"
-    serial_number: "PMW4DBSB"
+    serial_number: "5000cca06e074910"
     device_group: "plottingDriveGroup"
     zone: "chassis"
 
-"cpu"s:
+cpus:
   - device_type: "cpu"
     socket: 0
-    device_group: "cpu"s
+    device_group: "cpus"
     zone: "chassis"
   - device_type: "cpu"
     socket: 1
-    device_group: "cpu"s
+    device_group: "cpus"
     zone: "chassis"
 
-gpus:
+# gpus:
 
-other:
+# other:
   
