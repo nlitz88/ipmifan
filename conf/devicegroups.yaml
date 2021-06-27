@@ -1,5 +1,8 @@
 ---
-# Array of diskgroups.
-- "default"
-- "plottingDriveGroup"
-- "cpus"
+# Dictionary defined for each unique device group.
+default:
+  zone: "default"
+plottingDriveGroup:
+  zone: "chassis"
+cpus:
+  zone: "chassis"

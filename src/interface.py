@@ -52,10 +52,9 @@ for grouping in devicesFile:
         if "device_group" not in device:
             device["device_group"] = "default"
         deviceGroups[device["device_group"]].append(device)
-
-
-        # NOTE: CHANGE THIS: Change devices.yaml to not include zone. Rather, include zone field in each diskgroup entry
-        #       in devicegroups.yaml, as you assign device_groups to zones, not devices!
-        # if "zone" not in device:
-        #     device["zone"] = "default"
-        # zones[device["zone"]].
+    
+for deviceGroup in deviceGroupsFile:
+    # TODO: Consider adding support for assigning a deviceGroup to multiple zones.
+    if "zone" not in deviceGroup:
+        deviceGroup["zone"] = "default"
+    zones[deviceGroup["zone"]].append(deviceGroup)

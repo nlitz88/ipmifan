@@ -1,4 +1,4 @@
 ---
-# Array of zones.
-- "default"
-- "chassis"
+# Dictionary defined for each unique zone.
+default:
+chassis:
