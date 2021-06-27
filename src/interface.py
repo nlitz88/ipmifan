@@ -58,3 +58,18 @@ for deviceGroup in deviceGroupsFile:
     if "zone" not in deviceGroup:
         deviceGroup["zone"] = "default"
     zones[deviceGroup["zone"]].append(deviceGroup)
+
+# NOTE: Kind of a big design decision:
+#       Should I move all of the grouping capabilities (like devicegroups and zones) to the controller?
+#       If this service is to truly just be an adaptable data broker/interface, then why should it have any knowledge of the grouping of devices?
+#       It won't be doing any of those calculations, only the controller has to have knowledge of these groupings/assignments.
+#       
+#       The only things that should be defined in this should be devices.yaml. devices.yaml should basically just list all of the devices
+#       (and device types) that the user wants the interface to make available via the module or the eventual API.
+#       THEREFORE:
+#       The controller should specify a similar list (almost identical) that outlines the drives that it wants to use to make its determinations.
+#       Additionally, this should include the groupings and zones that are currently specified here.
+#       
+#       The point is to make this interface service as generic as possible so that it can be expanded or used as a lightweight metrics
+#       collector for future projects/applications/adapters (as an alternative to something like netdata).
+#       For instance, my load indication LEDs, rather than depending on an instance of netdata, I could use the interface.
